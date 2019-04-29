@@ -131,7 +131,7 @@ function getFinalResult()
         index = ans[1];
 
     result.querySelector(".title").innerHTML = "You got: " + RESULTS_MAP[index]["title"];
-    result.querySelector(".contents").innerHTML = "You got: " + RESULTS_MAP[index]["contents"];
+    result.querySelector(".contents").innerHTML = RESULTS_MAP[index]["contents"];
     
     result.style.display = "block";
     // console.log(index);
